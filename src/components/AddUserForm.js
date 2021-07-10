@@ -41,7 +41,8 @@ class AddUserForm extends Component {
             placeholder="Enter name"
             name="name"
             onChange={this.handleChange}
-            value ={this.state.name}
+            value ={this.state.name} 
+            required
           />
         </Form.Group>
         <Form>
@@ -53,6 +54,7 @@ class AddUserForm extends Component {
               name="email"
               onChange={this.handleChange}
               value ={this.state.email}
+              required
             />
           </Form.Group>
 
@@ -64,6 +66,7 @@ class AddUserForm extends Component {
               name="gen"
               onChange={this.handleChange}
               value ={this.state.gen}
+              required
             />
           </Form.Group>
         </Form>
