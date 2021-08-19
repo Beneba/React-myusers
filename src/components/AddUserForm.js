@@ -69,6 +69,7 @@ class AddUserForm extends Component {
               required
             />
           </Form.Group>
+          <br />
         </Form>
 
         <Button variant="primary" type="submit" onSubmit={this.handleSubmit}>
